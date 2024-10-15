@@ -1,0 +1,55 @@
+@media screen and (max-width: 1024px) {
+
+  /****** filters ***********/
+
+  .filters {
+    display: inline;
+  }
+
+  .filters h3 {
+    margin-bottom: 20px;
+  }
+
+  /****** Hebergements And Populaires ***********/
+  .hebergements-and-populaires {
+      flex-direction: column;
+  }
+
+  .hebergements {
+      width: 100%;
+  }
+
+  .populaires {
+      width: 100%;
+  }
+
+  .populaires-cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .populaires-cards a {
+      width: 30%;
+  }
+
+  .populaires-cards .card-title {
+      font-size: 14px;
+  }
+
+  .populaires-cards .card-subtitle {
+      font-size: 13px;
+  }
+
+  /****** Activités ***********/
+
+  .activities-card p {
+    text-align: left;
+  }
+  .activities-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+}
